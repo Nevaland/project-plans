@@ -8,7 +8,7 @@ This repository is the project's planning documents.
 `2021.02.02` ~ `2021.02.04` [project-manager](./webservice/project-manager/)
 
 ![webservice](https://img.shields.io/badge/service-web-yellow) ![plan](https://img.shields.io/badge/-plan-blue)  
-`2021.02.26 ~` [contact-point](./webservice/contact-point/)
+`2021..~` [contact-point](./webservice/contact-point/)
 
 ## Tags
 

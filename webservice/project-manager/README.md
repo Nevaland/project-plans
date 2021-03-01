@@ -54,7 +54,7 @@ https://github.com/CASPER-REPSAC/project-manager
 #### 2. 프로젝트 글 열람
 
 ![view_page](./resource/view_page.png)  
-![view_page](./resource/view_page_comment.png)
+![view_page](./resource/view_page_comment.png)  
 [글 열람 페이지 상세보기](./pages/view_page.md)
 
 #### 3. 프로젝트 글 작성

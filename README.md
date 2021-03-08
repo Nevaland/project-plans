@@ -11,7 +11,7 @@ This repository is the project's planning documents.
 `2021.02.25` ~ `2021.03.08` [algorithm-stack](./study/algorithm-stack/)
 
 ![webservice](https://img.shields.io/badge/service-web-yellow) ![plan](https://img.shields.io/badge/-plan-blue)  
-`2021..~` [contact-point](./webservice/contact-point/)
+`2021.03.07 ~` [connect](./webservice/connect/)
 
 ## Tags
 

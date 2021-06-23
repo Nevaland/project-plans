@@ -80,10 +80,9 @@ frontend: https://github.com/CASPER-REPSAC/casper-frontend (yet)
 ![navigation](./navigation.jpg)
 
 네비게이션은 Main, Board, Community, Library로 노출이 되며, 세부 카테고리는 위와 같다.  
-또한, 프로필 사진으로 버튼이 제공되고 확장되어 회원정보보기, 작성 글 보기가 제공되며 동아리 미인증 사용자에게는 동아리인증 기능이 함께 제공된다.
+또한, 프로필 사진으로 버튼이 제공되고 확장되어 회원정보보기, 작성 글 보기가 제공되며 동아리 미인증 사용자에게는 동아리인증 기능이 함께 제공된다. (다음은 카테고리를 정리한 내용이다.)
 
-```python
-# 카테고리 정리
+```
 Board
  - 공지사항
  - 자유게시판

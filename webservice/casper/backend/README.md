@@ -22,7 +22,7 @@
   - DELETE /board/suggestions/{sugestions_id} : 제안 삭제
   - POST /board/suggestions/{sugestions_id}/chat : 제안 채팅 작성
 - questsions // S.O.S  
-  id, author[user], created_date, empired_date, status, title, content
+  id, author[user], created_date, empired_date, category, status, title, content
   - GET /board/sos : 질문 목록
   - POST /board/sos : 질문 작성
   - PUT /board/sos/{sos_id} : 질문 수정

@@ -71,7 +71,11 @@ id, type(study, project, ctf), status(before, being, finished), author[user], ti
 
 ### Log
 
-- Ranking
+- Ranking  
+  year, [activist, observer, rescuer]{first_user, second_user, third_user, first_point, second_point, third_point}
+  - GET /rankings : 랭킹 기록
+  - POST /rankings : 랭킹 기록 작성
+  - PUT /rangkins/{ranking_year} : 랭킹 기록 수정
 - Point
 - User
 - Activity

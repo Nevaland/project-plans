@@ -17,7 +17,7 @@ This repository is the project's planning documents.
 `2021.04.25` [water-plouf](./app/water-plouf/)
 
 ![webservice](https://img.shields.io/badge/service-web-yellow) ![devleop](https://img.shields.io/badge/-develop-green)  
-`2021.06.20` [casper](./webservice/casper/)
+`2021.06.20 ~` [casper](./webservice/casper/)
 
 ## Tags
 

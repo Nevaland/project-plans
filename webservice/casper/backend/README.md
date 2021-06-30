@@ -49,7 +49,7 @@
   - GET /board/activitists : 활동가 목록
   - POST /board/activitists : 활동가 등록
   - PUT /board/activitists : 활동가 정보 수정
-- oberservers  
+- observers  
   id, user_id[user], visible, point, total_point
   - GET /board/activitists : 관측자 목록
   - POST /board/activitists : 관측자 등록

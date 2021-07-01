@@ -37,7 +37,7 @@
 ### User
 
 - account  
-  id, registrated_date, name, nickname, email, class, birth_date, photo, stacks, appeal[apeals], homepage, blog, contact, descryption, feed_mail  
+  id, registration_date, name, nickname, email, class_type, birth_date, photo, stacks, appeal[apeals], homepage, blog, contact, description, feed_mail  
   ...
 - apeals  
   id, auther[user], updated_date, content

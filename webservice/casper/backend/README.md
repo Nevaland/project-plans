@@ -15,12 +15,14 @@
   - PUT /board/posts/{post_id} : 게시글 수정
   - DELETE /board/posts/{post_id} : 게시글 삭제
 - suggestions  
-  id, author[user], created_date, type, title, content, chats{author[user], created_date, conetnt}
+  id, author[user], created_date, type, title, content, chats[chat]
   - GET /board/suggestions : 제안 목록
   - POST /board/suggestions : 제안 작성
   - PUT /board/suggestions/{sugestions_id} : 제안 수정
   - DELETE /board/suggestions/{sugestions_id} : 제안 삭제
   - POST /board/suggestions/{sugestions_id}/chat : 제안 채팅 작성
+- chats
+  id, author[user], created_date, content
 - questsions // S.O.S  
   id, author[user], created_date, empired_date, category, status, title, content
   - GET /board/sos : 질문 목록

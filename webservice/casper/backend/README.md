@@ -9,7 +9,7 @@
   - GET /board/categories : 카테고리 목록
   - POST /board/categories : 카테고리 생성
 - posts  
-  id, author[user], created_date, viewer_num, categoriy[categories], title, content
+  id, author[user], created_date, viewer_num, category[categories], title, content
   - GET /board/posts : 게시글 목록
   - POST /board/posts : 게시글 작성
   - PUT /board/posts/{post_id} : 게시글 수정
@@ -24,7 +24,7 @@
 - chats  
   id, author[user], created_date, content
 - questsions // S.O.S  
-  id, author[user], created_date, empired_date, category, status, title, content
+  id, author[user], created_date, expiration_date, question_category, status, title, content
   - GET /board/sos : 질문 목록
   - POST /board/sos : 질문 작성
   - PUT /board/sos/{sos_id} : 질문 수정
@@ -39,28 +39,28 @@
 ### User
 
 - account  
-  id, registration_date, name, nickname, email, class_type, birth_date, photo, stacks, appeal[apeals], homepage, blog, contact, description, feed_mail  
+  id, registration_date, name, nickname, email, class_type, birth_date, photo, stacks, appeal[appeals], homepage, blog, contact, description, feed_mail  
   ...
-- apeals  
+- appeals  
   id, auther[user], updated_date, content
-  - GET /board/apeals : 어필 목록
-  - POST /board/apeals : 어필 작성 및 수정
-  - DELETE /board/apeals : 어필 삭제
-- activitists  
+  - GET /board/appeals : 어필 목록
+  - POST /board/appeals : 어필 작성 및 수정
+  - DELETE /board/appeals : 어필 삭제
+- activists  
   id, user_id[user], visible, point, total_point
-  - GET /board/activitists : 활동가 목록
-  - POST /board/activitists : 활동가 등록
-  - PUT /board/activitists : 활동가 정보 수정
+  - GET /board/activists : 활동가 목록
+  - POST /board/activists : 활동가 등록
+  - PUT /board/activists : 활동가 정보 수정
 - observers  
   id, user_id[user], visible, point, total_point
-  - GET /board/activitists : 관측자 목록
-  - POST /board/activitists : 관측자 등록
-  - PUT /board/activitists : 관측자 정보 수정
+  - GET /board/activists : 관측자 목록
+  - POST /board/activists : 관측자 등록
+  - PUT /board/activists : 관측자 정보 수정
 - rescuers  
   id, user_id[user], visible, point, total_point
-  - GET /board/activitists : 구조자 목록
-  - POST /board/activitists : 구조자 등록
-  - PUT /board/activitists : 구조자 정보 수정
+  - GET /board/activists : 구조자 목록
+  - POST /board/activists : 구조자 등록
+  - PUT /board/activists : 구조자 정보 수정
 
 ### Activity
 

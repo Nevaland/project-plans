@@ -21,7 +21,7 @@
   - PUT /board/suggestions/{sugestions_id} : 제안 수정
   - DELETE /board/suggestions/{sugestions_id} : 제안 삭제
   - POST /board/suggestions/{sugestions_id}/chat : 제안 채팅 작성
-- chats
+- chats  
   id, author[user], created_date, content
 - questsions // S.O.S  
   id, author[user], created_date, empired_date, category, status, title, content

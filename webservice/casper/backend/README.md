@@ -15,7 +15,7 @@
   - PUT /board/posts/{post_id} : 게시글 수정
   - DELETE /board/posts/{post_id} : 게시글 삭제
 - suggestions  
-  id, author[user], created_date, type, title, content, chats[chat]
+  id, author[user], created_date, type(study,project,ctf), title, content, chats[chat]
   - GET /board/suggestions : 제안 목록
   - POST /board/suggestions : 제안 작성
   - PUT /board/suggestions/{sugestions_id} : 제안 수정
@@ -24,7 +24,7 @@
 - chats  
   id, author[user], created_date, content
 - questsions // S.O.S  
-  id, author[user], created_date, expiration_date, question_category, status, title, content
+  id, author[user], created_date, expiration_date, question_category, status(unsolved,solved), title, content
   - GET /board/sos : 질문 목록
   - POST /board/sos : 질문 작성
   - PUT /board/sos/{sos_id} : 질문 수정
@@ -39,7 +39,7 @@
 ### Account
 
 - users  
-  id, registration_date, name, nickname, email, class_type, birth_date, photo, stacks, appeal[appeals], homepage, blog, contact, description, feed_mail  
+  id, registration_date, name, nickname, email, (class_type), birth_date, photo, stacks, appeal[appeals], homepage, blog, contact, description, feed_mail  
   ...
 - appeals  
   id, auther[user], updated_date, content
@@ -64,7 +64,7 @@
 
 ### Activity
 
-id, type(study, project, ctf), status(before, being, finished), author[user], title, content, participants{[user]}
+id, type(study,project,ctf), status(before,being,finished), author[user], title, content, participants{[user]}
 
 - GET /board/activities : 활동 목록
 - POST /board/activities : 활동 작성

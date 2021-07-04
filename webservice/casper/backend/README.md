@@ -36,31 +36,31 @@
   - PUT /board/answers/{answers_id} : 답변 수정
   - DELETE /board/answers/{answers_id} : 답변 삭제
 
-### User
+### Account
 
-- account  
+- users  
   id, registration_date, name, nickname, email, class_type, birth_date, photo, stacks, appeal[appeals], homepage, blog, contact, description, feed_mail  
   ...
 - appeals  
   id, auther[user], updated_date, content
   - GET /board/appeals : 어필 목록
   - POST /board/appeals : 어필 작성 및 수정
-  - DELETE /board/appeals : 어필 삭제
+  - DELETE /board/appeals/{appeal_id} : 어필 삭제
 - activists  
-  id, user_id[user], visible, point, total_point
+  id, owner[user], visible, point, total_point
   - GET /board/activists : 활동가 목록
   - POST /board/activists : 활동가 등록
-  - PUT /board/activists : 활동가 정보 수정
+  - PUT /board/activists/{activist_id} : 활동가 정보 수정
 - observers  
-  id, user_id[user], visible, point, total_point
+  id, owner[user], visible, point, total_point
   - GET /board/observers : 관측자 목록
   - POST /board/observers : 관측자 등록
-  - PUT /board/observers : 관측자 정보 수정
+  - PUT /board/observers/{observer_id} : 관측자 정보 수정
 - rescuers  
-  id, user_id[user], visible, point, total_point
+  id, owner[user], visible, point, total_point
   - GET /board/rescuers : 구조자 목록
   - POST /board/rescuers : 구조자 등록
-  - PUT /board/rescuers : 구조자 정보 수정
+  - PUT /board/rescuers/{rescuer_id} : 구조자 정보 수정
 
 ### Activity
 

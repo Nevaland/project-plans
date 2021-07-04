@@ -53,14 +53,14 @@
   - PUT /board/activists : 활동가 정보 수정
 - observers  
   id, user_id[user], visible, point, total_point
-  - GET /board/activists : 관측자 목록
-  - POST /board/activists : 관측자 등록
-  - PUT /board/activists : 관측자 정보 수정
+  - GET /board/observers : 관측자 목록
+  - POST /board/observers : 관측자 등록
+  - PUT /board/observers : 관측자 정보 수정
 - rescuers  
   id, user_id[user], visible, point, total_point
-  - GET /board/activists : 구조자 목록
-  - POST /board/activists : 구조자 등록
-  - PUT /board/activists : 구조자 정보 수정
+  - GET /board/rescuers : 구조자 목록
+  - POST /board/rescuers : 구조자 등록
+  - PUT /board/rescuers : 구조자 정보 수정
 
 ### Activity
 

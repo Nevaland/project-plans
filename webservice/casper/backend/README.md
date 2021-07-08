@@ -42,7 +42,7 @@
   id, registration_date, name, nickname, email, (class_type), birth_date, photo, stacks, appeal[appeals], homepage, blog, contact, description, feed_mail  
   ...
 - appeals  
-  id, auther[user], updated_date, content
+  id, owner[user], updated_date, content
   - GET /board/appeals : 어필 목록
   - POST /board/appeals : 어필 작성 및 수정
   - DELETE /board/appeals/{appeal_id} : 어필 삭제

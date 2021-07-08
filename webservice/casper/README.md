@@ -1,7 +1,7 @@
 # Casper
 
 backend: https://github.com/CASPER-REPSAC/casper-backend  
-frontend: https://github.com/CASPER-REPSAC/casper-frontend (yet)
+frontend: https://github.com/CASPER-REPSAC/casper-frontend
 
 ## 프로젝트 개요
 

@@ -1,11 +1,11 @@
 # Develop
 
-- [Git Workflow: git-flow](#Git-Workflow:-git-flow)
+- [Git Workflow: git-flow](#Git-Workflow-git-flow)
   - [Branches](#Branches)
   - [Remotes](#Remotes)
   - [Commit Message Convention](#Commit-Message-Convention)
   - [Squash Merge](#Squash-Merge)
-- [Versionings](#Versioning:-majorminoretc)
+- [Versionings](#Versioning-majorminoretc)
   - [기획된 Renewal Capser Versions](#기획된-Renewal-Capser-Versions)
 
 ## Git Workflow: git-flow

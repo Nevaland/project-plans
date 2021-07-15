@@ -63,7 +63,7 @@ Body와 같이 선택사항이며, issue tracker id를 작성할 때 사용한�
 
 병합은 Squash Merge를 기본으로 한다. 커밋을 깔끔하게 관리한 경우 no-ff 머지로 관리하는 것이 좋을 수 있으나 그렇게 관지하지 못할 가능성이 높아, squash merge로 커밋을 깔끔하게 정리하되 필요할 경우 머지 기록에서 머지된 하위 커밋들의 내용을 확인할 수 있도록 한다.
 
-## Versioning: <major>.<minor>.<etc>
+## Versioning: `<major>.<minor>.<etc>`
 
 버저닝은 다음과 같은 보편적인 규칙을 따른다.  
 Version: `<major>.<minor>.<etc>`

@@ -22,6 +22,9 @@ This repository is the project's planning documents.
 ![app](https://img.shields.io/badge/-app-grey) ![plan](https://img.shields.io/badge/-plan-blue)  
 `2021.08.03 ~ 2021.08.09` [casper-clicker](./app/casper-clicker/)
 
+![app](https://img.shields.io/badge/-app-grey) ![devleop](https://img.shields.io/badge/-develop-green)  
+`2021.08.08` [achieve-app](./app/achieve-app/)
+
 ## Tags
 
 ![webservice](https://img.shields.io/badge/service-web-yellow)

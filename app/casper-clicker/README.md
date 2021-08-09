@@ -46,6 +46,8 @@
 
 #### main(home), book and item, account
 
-![main_page](./casper-clicker_main.png)  
-![book-item_page](./casper-clicker_book-item.png)  
-![account_page](./casper-clicker_account.png)
+<div>
+  <img align="top" src="./casper-clicker_main.png" width="30%" height="30%">  
+  <img align="top" src="./casper-clicker_book-item.png" width="30%" height="30%">  
+  <img align="top" src="./casper-clicker_account.png" width="30%" height="30%">  
+</div>

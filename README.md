@@ -28,6 +28,9 @@ This repository is the project's planning documents.
 ![webservice](https://img.shields.io/badge/service-web-yellow) ![devleop](https://img.shields.io/badge/-develop-green)  
 `2020.10.29, 2021.10.05 ~` [minbottle](./webservice/minbottle/)
 
+![app](https://img.shields.io/badge/-app-grey) ![plan](https://img.shields.io/badge/-plan-blue)  
+`2021.12.01 ~` [flask](./app/flask/)
+
 ## Tags
 
 ![webservice](https://img.shields.io/badge/service-web-yellow)
